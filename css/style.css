@@ -53,7 +53,7 @@ body {
 }
 
 .container .article .title {
-    background-image:url(../images/hey.jpg) ;
+    background-image:url(../hey.jpg) ;
     box-sizing: border-box;
     padding: 20px;
     background-size: cover;
