@@ -24,6 +24,7 @@ body {
     background-color: bisque;
     padding: 10px;
     box-sizing: border-box;
+    
 }
 .container .header nav {
     display: flex;
@@ -143,12 +144,22 @@ body {
 width: 200px;
 height: 200px;
 }
+.prod .card img:hover {
+    animation: rt 2s ease-out  ;
+    
+}
+@keyframes rt {
+     80%{transform: rotate(20deg);
+     }
+
+
+}
 .prod .card h4 {
     font-size: 20px;
 }
 .prod .card .price {
     color: white;
-    border: 1px solid green;
+    border: 1px solid transparent;
     border-radius: 12px;
     padding: 10px;
     width: 200px;
@@ -156,6 +167,11 @@ height: 200px;
     cursor: pointer;
     background-color: green;
 } 
+.prod .card .price:hover {
+    color: green;
+    background-color: white;
+    border: 2px solid green;
+}
 
 .prod .card p{
     padding: 5px;
